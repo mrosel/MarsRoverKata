@@ -13,7 +13,9 @@ You’re part of the team that explores Mars by sending remotely controlled vehi
 * Implement obstacle detection before each move to a new square. If a given sequence of commands encounters an obstacle, the rover moves up to the last possible point, aborts the sequence and reports the obstacle.
 
 ## Rules
-
+* Git workflow is important. Fork or create a new branch to work off of. *Commit Often, Perfect Later, Publish Once*
+* Excercise a TDD discipline to work through the Kata. Don't leave any red refactors. 
+* Show that you know OOP principles. Architecture is important.
 * Be careful about edge cases and exceptions. We can not afford to lose a mars rover, just because the developers overlooked a null pointer.
 
 
