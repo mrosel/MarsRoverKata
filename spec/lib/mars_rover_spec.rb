@@ -1,5 +1,5 @@
-require '/Users/myfoulder/Desktop/test-task/MarsRoverKata/lib/mars_rover.rb'
-require '/Users/myfoulder/Desktop/test-task/MarsRoverKata/spec/spec_helper.rb'
+require './lib/mars_rover.rb'
+require './spec/spec_helper.rb'
 
 RSpec.describe MarsRover do
   # Checks whether MarsRover create
@@ -13,4 +13,5 @@ RSpec.describe MarsRover do
     rover = MarsRover.new
     expect(rover).to respond_to(:move)
   end
+
 end
